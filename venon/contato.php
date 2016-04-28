@@ -71,12 +71,10 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>Venon Connect</title>
-    <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-     <!-- FONTAWESOME STYLE CSS -->
-     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE CSS -->
+    <title>Venon Connect</title>   
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />     
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />    
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <body>    
@@ -98,30 +96,27 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
                     <li><a href="contato.php" class="active-menu-item">CONTATO</a></li>                    
                 </ul>
             </div>
-
         </div>
     </div>
-    <!--MENU SECTION END-->
+    
     <section class="headline-sec">
         <div class="overlay ">
             <h3 >Contato <i class="fa fa-angle-double-right "></i></h3>
         </div>
     </section>
-    <!--HOME SECTION END-->
+    
     <section>
         <div class="container">
             <div class="row">
-                 <div class="col-md-6" >
-                     <h2><strong> Informações </strong></h2>
-                     
-                    <h5>Rua Cel. João Lopes Zedes, Nº 1545-A,</h5>
-                     <h5>Morrinhos, CEP: 75650-000</h5>
-                    <h5><i>Email:</i> venoncomputadores@gmail.com</h5>
-                     <h5><i>Fone:</i> (64) 3413-4773</h5>
-                     <h5><i>Plantão:</i> (64) 9237-3047</h5>
-                </div>
                 <div class="col-md-6" >
-                    
+                    <h2><strong> Informações </strong></h2>                     
+                    <h5>Rua Cel. João Lopes Zedes, Nº 1545-A,</h5>
+                    <h5>Morrinhos, CEP: 75650-000</h5>
+                    <h5><i>Email:</i> venoncomputadores@gmail.com</h5>
+                    <h5><i>Fone:</i> (64) 3413-4773</h5>
+                    <h5><i>Plantão:</i> (64) 9237-3047</h5>
+                </div>
+                <div class="col-md-6" >                    
                     <form class="form-horizontal" role="form" method="post" action="contato.php">
                         <div class="form-group">
                             <strong>FORMULÁRIO DE CONTATO</strong>
@@ -168,6 +163,7 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
             </div>
         </div>
     </section>
+	
     <section id="footer-sec" >
         <div class="container">
             <div class="row">
@@ -194,7 +190,7 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
             </div>               
         </div>
     </section>
-     <!--FOOTER SECTION END-->
+    
     <div class="copy-txt">
         <div class="container">
 			<div class="row">
@@ -204,15 +200,11 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
             </div>
         </div>
     </div>
-     <!-- COPY TEXT SECTION END-->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
+    
     <script src="assets/js/jquery-1.11.1.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
     <script src="assets/js/bootstrap.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-    <!-- CUSTOM SCRIPTS  -->
+	<script src="assets/js/bootstrap.min.js"></script>    
     <script src="assets/js/custom.js"></script>
     
 </body>
