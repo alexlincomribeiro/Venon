@@ -1,0 +1,680 @@
+﻿/*=============================================================
+    Venon Connect - Provedor de Internet Banda Larga
+	Autor: Giovani Paganini / fb.com/the.paganini
+	
+    
+	Site desenvolvido com HTML5, Bootstrap e CSS3.
+	Tema responsivo.
+   
+
+    ========================================================  */
+/* =============================================================
+   ESTILO GERAL
+ ============================================================ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+        line-height:30px;
+        font-size:16px;
+}
+
+a {
+    color: #b30000;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    /*! padding-bottom:80px; */
+    padding-top:75px;
+}
+ 
+.hr-set {
+    border-top:2px solid #000;
+    max-width:250px;
+}
+h3 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+h4 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+.icon-custom-1 {
+    #background-color: #fff;
+	padding: 25px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+.icon-custom-2 {
+    background-color: #222;
+	padding: 25px;
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.icon-custom-1:hover {
+     color: #b30000;
+}
+.icon-custom-2:hover {
+     color: #b30000;
+}
+.color-1 {
+    color: #ccc;
+}
+.color-2 {
+    color: #ccc;
+}
+.p-top-row {
+    padding-top:40px;
+}
+
+ /* =============================================================
+   ESTILOS DO MENU 
+ ============================================================ */
+
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-brand:hover {
+color: #FFF;
+font-size: 35px;
+#letter-spacing: 5px;
+#font-weight: 900;
+#background-color:rgba(20, 152, 152, 1);
+#padding-bottom: 60px;
+margin-top: 10px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-inverse {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 0px;
+}
+.set-links {
+    padding: 15px 20px 10px 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    #font-weight:900;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #b30000;
+}
+.active-menu-item {
+    color: #b30000!important;
+}
+.navbar-brand small {
+    font-size:12px;
+    font-weight:normal;
+    letter-spacing:1px;
+}
+
+  /* =============================================================
+   ESTILOS DA SEÇÃO HOME -IN HOME / INDEX.HTML 
+ ============================================================ */
+#home-sec {
+      background: url(../img/header2.png) no-repeat center center ;
+ /* padding: px; */
+-webkit-background-size: cover;
+background-size: cover;
+-moz-background-size:cover;
+color:#fff;
+      margin-top: 59px;
+}
+
+    #home-sec .overlay {
+        #background-color:rgba(0, 0, 0, 0.2);
+        min-height:350px;
+    }
+    #home-sec h1 {
+        padding-top:150px;
+        font-weight:900;
+    }
+#home-sec p {
+    padding:10px;
+}
+/* =============================================================
+   ESTILOS DA SEÇÃO PESQUISAR DOMINIO **REMOVIDO DO HTML**  -IN HOME / INDEX.HTML 
+ ============================================================ */
+#search-domain {
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.input-cls {
+    height: 70px;
+    border: 3px solid #2EB1D0;
+    font-size:30px;
+    color:#2EB1D0;
+    padding-left:40px;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+}
+.btn-set {
+    font-size:30px;
+    border: 5px double #fff;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+}
+/* =============================================================
+   SERVICES SECTION STYLES  -IN HOME / INDEX.HTML 
+ ============================================================ */
+
+#services-sec {
+    background-color:#202020;
+    color:#fff;
+}
+
+   /* =============================================================
+   ESTILOS DO CARROSSEL  -IN HOME / INDEX.HTML 
+ ============================================================ */
+#testimonial-sec {
+  background-color:#43698E;
+}
+
+.carousel-indicators .active {
+width: 25px;
+height: 25px;
+background-color: #fff;
+}
+.carousel-indicators li {
+width: 25px;
+height: 25px;
+border: 1px solid #fff;
+}
+   #carousel-example .slide-custom {
+    min-height:300px;
+    padding:20px;
+    line-height:30px;
+}
+
+#carousel-example h1, h2 {
+    color:#000;
+}
+#carousel-example h4 {
+    line-height:30px;
+    font-size:14px;
+    color: #fff;
+}
+#carousel-example h4 i{
+   padding:5px;
+}
+#carousel-example .pad-top {
+     padding-top:80px;
+}
+#carousel-example {
+    margin-top:50px;
+
+}
+
+#carousel-example .user-img {
+border: 5px solid #49CD7D;
+overflow: hidden;
+border-radius: 50%;
+display: inline-block;
+margin-left:20px;
+}
+
+#carousel-example .img-u {
+   max-height: 90px;
+max-width: 90px;
+
+}
+
+#carousel-example .c-black {
+    color:#49CD7D;
+    font-style: italic;
+font-size: 20px;
+padding: 5px;
+}
+/* =============================================================
+   ESTILOS DOS SERVIÇOS  -IN HOME / INDEX.HTML 
+ ============================================================ */
+#features-sec {
+    background-color:#EFEFEF;
+}
+/* =============================================================
+   ESTILOS DO RODAPÉ
+ ============================================================ */
+#footer-sec {
+    background-color:#121212;
+    padding-bottom:30px;
+    padding-top:30px;
+    color: #ccc;
+}
+.social-links a{
+    color:#ccc;
+    text-decoration:none;
+}
+
+.social-links a i {
+    background-color:#000;
+    padding:15px 20px;
+    margin:5px;
+}
+
+.social-links a:hover {
+	color: #b30000;	
+}
+
+.copy-txt {
+    background-color:#202020;
+    padding:15px;
+    color:#7C7C7C;
+}
+
+.set-foot {
+    text-align:right;
+    padding-right:50px;
+}
+
+/* =============================================================
+   HEADER DAS PÁGINAS
+ ============================================================ */
+.headline-sec {
+      background: url(../img/header2.png) no-repeat center center;
+ padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+-moz-background-size:cover;
+color:#fff;
+margin-top: 50px;
+
+}
+.headline-sec .overlay {
+        background-color:rgba(0, 0, 0, 0.2);
+        min-height:170px;
+    }
+    .headline-sec h3 {
+        padding-top:85px;
+        font-weight:900;
+        padding-left:100px;
+    }
+
+     /* =============================================================
+   ESTILOS DA ANTIGA PÁGINA DE PREÇOS - SUBSITUIDA PELA SEÇÃO DAS TABELAS DE PREÇOS
+ ============================================================ */
+
+#pricing-sec h3 {
+   color:#2784DF;
+}
+.pricing-div ul{
+    padding-top:30px;
+    list-style:none;
+    
+    
+}
+
+    .pricing-div ul li {
+        padding-left:0px;
+        padding-bottom:20px;
+        
+    }
+        .pricing-div ul li i {
+            padding-right:10px;
+        }
+.pricing-div  .price {
+    font-size:30px;
+    font-weight:800;
+    display:block;
+}
+.set-wth {
+    max-width:400px;
+}
+
+/* ============================================
+	TABELA DE PREÇOS PÁGINA planos.html
+==============================================*/
+
+table {
+	display: table;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 100%;
+	font-family: arial,​verdana,​sans-serif;
+	font-size: 15px;
+	border-spacing: 0;
+}
+table td{
+	border-collapse: collapse;
+border: 1px solid #ccc;
+padding: 5px
+}
+thead, tbody, th, tr, td {
+	margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline
+}
+
+thead td {
+	background-size: 100%;
+	background-image: linear-gradient(#444,#222);
+color: #fff;
+font-weight: bold;
+text-align: center;
+border: 1px solid #333;
+font-size: 14px;
+}
+
+thead td.price.last {
+	background-image: linear-gradient(#cc0000,#800000);
+	border: 1px solid #b30000;
+}
+
+thead td.name.last {
+	background-image: linear-gradient(#cc0000,#800000);
+	border: 1px solid #b30000;
+}
+
+table.pricing.show-mobile td.price.business {
+	background-image: linear-gradient(#cc0000,#800000);
+	border: 1px solid #b30000;
+}
+
+table.pricing.show-mobile td.name.business {
+	background-image: linear-gradient(#cc0000,#800000);
+	border: 1px solid #b30000;
+}
+
+
+thead tr.second td {
+	padding: 15px;
+}
+
+thead td.name {
+	font-size: 18xpx;
+}
+
+thead td.empty {
+	/* background: url("../img/diagnal-background.png") #fff repeat; */
+	background-image: linear-gradient(#fff,#ccc);
+	border: 1px solid #ccc;
+	max-width: 300px;
+	max-height: 150px;
+}
+td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+td.show-desktop {
+	display: table-cell;
+visibility: visible;
+}
+
+tbody tr td.question {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 10px;
+	
+}
+
+tbody tr td {
+	font-size: 11px;
+	vertical-align: middle;
+	padding: 8px;
+}
+
+tbody tr td.content {
+	font-weight: bold;
+}
+tbody tr td.question.content {
+	font-weight: normal;
+}
+
+tbody tr:nth-child(4n) td {
+    background-color: #ededed;
+
+}
+
+td.show-desktop {
+    display: table-cell;
+    visibility: visible;
+}
+
+tbody tr.order td.diagnal-bg {
+    background: url("../img/diagnal-background.png") #fff repeat;
+}
+
+tbody tr.order td {
+    background: #F7F7F7;
+}	
+
+tbody tr.order td .order-now {
+    margin: 10px 5px;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+.order-now {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 155px;
+    z-index: 4;
+    padding: 4px 6px 6px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Tahoma", "Geneva", "Kalimati", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0 2px;
+    height: 27px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+tbody tr.order td .order-now a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.order-now::before {
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    position: absolute;
+    content: '';
+    background: #cc0000;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk3NGJlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OTI0NmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #cc0000 0%, #990000 100%);
+    background: -o-linear-gradient(top, #cc0000 0%, #990000 100%);
+    background: -ms-linear-gradient(top, #cc0000 0%, #990000 100%);
+    background: linear-gradient(to bottom, #cc0000 0%,#990000 100%);
+    z-index: -1;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 #d9d9d9;
+}
+
+.order-now {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Tahoma", "Geneva", "Kalimati", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.order-now::after {
+    position: absolute;
+    content: '';
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    z-index: -1;
+    border-radius: 4px;
+    background: #b30000;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg1NDliNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzk3NzNiOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU2JSIgc3RvcC1jb2xvcj0iIzYzMzI5NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MTI5ODQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #b30000 0%, #cc0000 55%, #990000 56%, #800000 100%);
+    background: -o-linear-gradient(top, #b30000 0%, #cc0000 55%, #990000 56%, #800000 100%);
+    background: -ms-linear-gradient(top, #b30000 0%, #cc0000 55%, #990000 56%, #800000 100%);
+    background: linear-gradient(to bottom, #b30000 0%,#cc0000 55%,#990000 56%,#800000 100%);
+}
+
+*::before, *::after {
+    box-sizing: inherit;
+}
+
+#content a {
+	color: #663399;
+}
+
+.order-now:hover:after {
+	background:#990000;
+}
+
+small {
+	font-size:80%;
+}
+
+table.pricing tbody tr td.question {
+	font-weight:bold;
+}
+
+table.pricing tbody tr td.question .questionhov {
+	display:none;
+}
+
+table.pricing tbody tr td.question .questionhov {
+	position:relative;
+}
+table.pricing tbody tr td.question .questionhov .question-description {
+	position:absolute;
+	max-width:300px;
+	bottom:13px;
+	left:-30px;
+	background:#b30000;
+	color:#fff;
+	padding:10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	line-height:normal;
+	text-transform:none;
+}
+
+table.pricing tbody tr td.question {
+	text-transform:uppercase;
+	text-align:left;
+	padding-left:10px;
+}
+
+
+/* ===============================================
+	FUNCIONABILIDADE RESPONSIVA DAS TABELAS
+================================================*/
+
+table.pricing tbody tr.show-mobile {
+	display:none;
+	visibility:collapse;
+}
+@media (max-width: 1010px) {
+	table.pricing tbody tr.show-mobile {
+		display:table-row;
+		visibility:visible;
+	}
+}
+table.pricing.show-mobile {
+	display:none;
+}
+@media (max-width: 768px) {
+	table.pricing.show-mobile {
+		display:table;
+	}
+}
+table.pricing.show-desktop {
+	display:table;
+}
+@media (max-width: 768px) {
+	table.pricing.show-desktop {
+		display:none;
+	}
+}
+table.pricing td.show-desktop {
+	display:table-cell;
+	visibility:visible;
+}
+@media (max-width: 1010px) {
+	table.pricing td.show-desktop {
+		display:none;
+		visibility:collapse;
+	}
+}
+@media (max-width: 1010px) {
+	table.pricing tbody tr.question-mobile td.question {
+		background-color:#f4f4f4;
+		text-align:center;
+	}
+	table.pricing tr td:nth-child(2n) {
+		background-color:#ededed;
+	}
+	table.pricing tr td:nth-child(2n+1) {
+		background-color:#fff;
+	}
+}
+table.pricing.show-mobile tbody tr td.plus {
+	width:80px;
+}
+
+@media (max-width: 1010px) {
+	table.pricing thead td.name {
+		padding:16px 0;
+	}
+}
+@media (max-width: 480px) {
+	table.pricing thead td.name {
+		font-size:14px;
+	}
+}
+
+@media (max-width: 768px) {
+	table.pricing tbody tr td:nth-child(2n) {
+		background-color:#ededed;
+	}
+	table.pricing tbody tr td:nth-child(2n+1) {
+		background-color:#fff;
+	}
+}
+
+@media (max-width: 768px) {
+	table.pricing tbody tr td.question {
+		background-color:#f4f4f4;
+		color:#000;
+	}
+}
+
+@media (max-width: 768px) {
+	table.pricing tbody tr.order td .order-now a {
+		padding:15px 10px;
+	}
+}
+.velo{margin-bottom: 2%;} 
+#velo{font-family: Arial; font-size: ; color:#333333;}
+#prov{align: center;}
+#titulo{font-family:Arial, Helvetica, sans-serif;color:#333333; font-size: 19px;}
+.as{ margin-right: 0px;}
+.ali{float: right;margin-right:12%;}
+  
