@@ -94,6 +94,7 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
                     <li><a href="sobre.html">QUEM SOMOS</a></li>
 					<li><a href="planos.html">PLANOS</a></li>
                     <li><a href="contato.php" class="active-menu-item">CONTATO</a></li>                    
+					<li><a href="http://sac.venonconnect.com.br">CENTRAL DO CLIENTE</a></li>
                 </ul>
             </div>
         </div>
