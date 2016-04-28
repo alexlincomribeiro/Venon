@@ -6,8 +6,10 @@
 	Site desenvolvido com HTML5, Bootstrap e CSS3.
 	Tema responsivo.
    
-
     ========================================================  */
+	
+	
+	
 /* =============================================================
    ESTILO GERAL
  ============================================================ */
@@ -73,6 +75,7 @@ h4 {
     padding-top:40px;
 }
 
+
  /* =============================================================
    ESTILOS DO MENU 
  ============================================================ */
@@ -130,7 +133,7 @@ color:#fff;
 }
 
     #home-sec .overlay {
-        #background-color:rgba(0, 0, 0, 0.2);
+        /*background-color:rgba(0, 0, 0, 0.2);*/
         min-height:350px;
     }
     #home-sec h1 {
@@ -177,18 +180,18 @@ color:#fff;
    ESTILOS DO CARROSSEL  -IN HOME / INDEX.HTML 
  ============================================================ */
 #testimonial-sec {
-  background-color:#43698E;
+  background-color: #303030;
 }
 
 .carousel-indicators .active {
 width: 25px;
 height: 25px;
-background-color: #fff;
+background-color: #ccc;
 }
 .carousel-indicators li {
 width: 25px;
 height: 25px;
-border: 1px solid #fff;
+border: 1px solid #999;
 }
    #carousel-example .slide-custom {
     min-height:300px;
@@ -202,7 +205,7 @@ border: 1px solid #fff;
 #carousel-example h4 {
     line-height:30px;
     font-size:14px;
-    color: #fff;
+    color: #ccc;
 }
 #carousel-example h4 i{
    padding:5px;
@@ -671,10 +674,3 @@ table.pricing.show-mobile tbody tr td.plus {
 		padding:15px 10px;
 	}
 }
-.velo{margin-bottom: 2%;} 
-#velo{font-family: Arial; font-size: ; color:#333333;}
-#prov{align: center;}
-#titulo{font-family:Arial, Helvetica, sans-serif;color:#333333; font-size: 19px;}
-.as{ margin-right: 0px;}
-.ali{float: right;margin-right:12%;}
-  
