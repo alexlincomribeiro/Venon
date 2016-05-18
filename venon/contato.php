@@ -117,10 +117,11 @@ if (!$errName && !$errEmail && !$errFone && !$errSubject && !$errMessage && !$er
                     <h5><i>Fone:</i> (64) 3413-4773</h5>
                     <h5><i>Plantão:</i> (64) 9237-3047</h5>
                 </div>
-                <div class="col-md-6" >                    
+                <div class="col-md-6" > 
+					<h2><strong> Formulário de contato</strong></h2>
                     <form class="form-horizontal" role="form" method="post" action="contato.php">
                         <div class="form-group">
-                            <strong>FORMULÁRIO DE CONTATO</strong>
+                            
                             <br />
 							<label for="name" class="col-sm-2 control-label">Nome</label>
 							<div class="col-sm-10">

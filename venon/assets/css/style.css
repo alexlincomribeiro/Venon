@@ -143,6 +143,37 @@ color:#fff;
 #home-sec p {
     padding:10px;
 }
+
+@media (max-width: 768px) {
+	#home-sec {
+		background: url(../img/cover.png) no-repeat center center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-moz-background-size:cover;
+		color:#fff;
+		margin-top: 59px;
+	}
+}
+@media (max-width: 480px) {
+	#home-sec {
+		background: url(../img/cover.png) no-repeat center center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-moz-background-size:cover;
+		color:#fff;
+		margin-top: 59px;
+	}
+}
+
+.logo {
+	padding-left: 35%;
+}
+@media (max-width: 768px){
+	.logo{
+		padding: 0;
+		
+	}
+}
 /* =============================================================
    ESTILOS DA SEÇÃO PESQUISAR DOMINIO **REMOVIDO DO HTML**  -IN HOME / INDEX.HTML 
  ============================================================ */
